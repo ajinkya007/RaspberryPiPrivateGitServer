@@ -1,0 +1,6 @@
+
+sudo apt-get update
+sudo apt-get upgrade
+
+#Make sure that git-core is installed in the system.
+sudo apt-get install git-core
