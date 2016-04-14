@@ -1,0 +1,17 @@
+#We need to initialize a local directory as a repository before we can push the code to our Pi. To do this enter the following command:
+
+git init
+
+#To add our remote Git directory by adding the following line.
+
+git remote add myFirstRepository pi@192.168.1.108:/home/pi/git/myFirstRepository
+
+#We easily push to data to our repository. To do this enter the following commands.
+
+git add -A
+
+git commit -m "Our first commit"
+
+git push myFirstRepository master
+
+
