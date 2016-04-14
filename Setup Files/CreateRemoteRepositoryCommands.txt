@@ -1,0 +1,9 @@
+#Create the directory
+mkdir -p /home/pi/git/myFirstRepository
+
+
+#Now let’s move into the directory by using the cd command.
+cd /home/pi/git/myFirstRepository
+
+#Initialise the git repository using the bare command.
+git init --bare
