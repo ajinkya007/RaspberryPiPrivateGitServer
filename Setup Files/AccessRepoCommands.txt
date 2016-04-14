@@ -1,0 +1,10 @@
+#First open up git bash in a different folder and then run the following commands:
+
+git clone pi@192.168.1.108:/home/pi/git/myFirstRepository/
+
+#Accessing the Private GIT server remotely
+
+#Now you may want to access your GIT repositories outside your local network. To do this you will need to setup port forwarding on your router.
+ssh://pi@XXX.XXX.XXX.XXX:23/home/pi/git/myFirstRepository.git/
+
+#Where X represents your external IP and 23 is the external port.
