@@ -20,5 +20,19 @@ You will need the following equipment to get this private git server up and goin
 ##Installing the Raspberry Pi GIT server    
 
 The process of installing the Raspberry pi GIT server is pretty straight forward. If you’re not familiar with git and its commands, then it is highly recommended that you take the time to learn them. The few basics further down the page and also point out a few good places to learn more about using Git.    
-As always let’s first make sure that the Pi is up to date. Run the following commands
+As always let’s first make sure that the Pi is up to date. Run the following commands  
+```  
+sudo apt-get update    
+sudo apt-get upgrade
+```
+
+Firstly, make sure git is installed. (It should already be installed)  
+```
+sudo apt-get install git-core  
+```
+
+Secondly you will need to make sure you have SSH enabled. If you haven’t got this done, then you can find out how to do this in SSH tutorial.    
+Now you might want to store this on a USB drive. If you want to do this, then you will need to mount the USB drive.
+This is all you need to do to have the Git server up and running. It really is pretty easy, the next part we will go into creating your first repository and pushing updates to it.
+
 
