@@ -62,4 +62,20 @@ git init
 9.Now we need to add our remote Git directory by adding the following line.  
 ```
 git remote add myFirstRepository pi@192.168.1.108:/home/pi/git/myFirstRepository
+```  
+10.Now we can easily push to data to our repository. To do this enter the following commands.git add.  
 ```
+git commit -m "Our first commit"  
+
+git push myFirstRepository master
+```  
+11.It should come up with a success message. This means our code has been pushed to our git server.  
+12.To just test to see if everything is working correctly you can clone the repository we just setup to a new folder. First open up git bash in a different folder and then run the following commands:
+```
+git clone pi@192.168.1.108:/home/pi/git/myFirstRepository/
+```
+13.As you can see the Raspberry Pi git server is storing our code correctly. Now this is the very basics of git and there is so much more to learn.  
+
+Now there is a lot more to learn about Git and the commands you’re able to use. I have come across a couple of websites that have been incredibly helpful with learning more about Git and how it works. If you’re looking at getting into programming, then it is important that you learn about code version control systems.  
+
+Also git-scm has plenty of great documentation on the many different commands you can use.
