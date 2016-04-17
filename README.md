@@ -52,6 +52,14 @@ cd /home/pi/git/myFirstRepository
 git init --bare
 ```
 4.You will need to repeat these steps whenever you need to make a new repository. Now that’s all done we’re ready to do our first commit.  
-5.On a windows or mac computer you will need to download git to be able to start pushing code to our repository. I recommend downloading and using git-scm.
-
-
+5.On a windows or mac computer you will need to download git to be able to start pushing code to our repository. I recommend downloading and using git-scm.  
+6.Once you have installed it you should have some extra options when you right click in a folder.  
+7.In the folder you wish to commit, right click and then go to git bash. This should open a window that looks like a command prompt.  
+8.If this is not already a git directory, then you will need to initialize it before we can push the code to our Pi. To do this enter the following command:  
+```
+git init
+```
+9.Now we need to add our remote Git directory by adding the following line.  
+```
+git remote add myFirstRepository pi@192.168.1.108:/home/pi/git/myFirstRepository
+```
