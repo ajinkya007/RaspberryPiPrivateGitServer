@@ -87,3 +87,11 @@ Now you may want to access your GIT repositories outside your local network. To 
 There are a few security risks involved with allowing communication through a port but is the easiest way for gaining access to your server.  
 
 It is essential that you update the pi user’s password to something a lot stronger if you’re going to allow external access.  
+
+If you want to setup external access, then check out my guide on port forwarding with the Raspberry Pi. You will need to port forward the SSH port (22) to gain access outside your local network.  
+
+If you use an external port other than 22 than you will need to specify this either in ~/.shh/ssh_config or using a URL style address instead like as followed.  
+```
+ssh://pi@XXX.XXX.XXX.XXX:23/home/pi/git/myFirstRepository.git/
+```
+Where X represents your external IP and 23 is the external port.
