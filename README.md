@@ -78,4 +78,12 @@ git clone pi@192.168.1.108:/home/pi/git/myFirstRepository/
 
 Now there is a lot more to learn about Git and the commands you’re able to use. I have come across a couple of websites that have been incredibly helpful with learning more about Git and how it works. If you’re looking at getting into programming, then it is important that you learn about code version control systems.  
 
-Also git-scm has plenty of great documentation on the many different commands you can use.
+Also git-scm has plenty of great documentation on the many different commands you can use.  
+
+##Accessing the Private GIT server remotely  
+
+Now you may want to access your GIT repositories outside your local network. To do this you will need to setup port forwarding on your router.  
+
+There are a few security risks involved with allowing communication through a port but is the easiest way for gaining access to your server.  
+
+It is essential that you update the pi user’s password to something a lot stronger if you’re going to allow external access.  
